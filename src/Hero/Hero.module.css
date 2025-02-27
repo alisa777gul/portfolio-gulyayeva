@@ -1,24 +1,25 @@
 .hero {
-  padding-bottom: 100px;
-  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-top: 32px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
   justify-content: center;
   align-items: center;
-  gap: 104px;
+  gap: 40px;
 }
 
 .textAndButtons {
   display: flex;
   flex-direction: column;
-  gap: 36px;
-  align-items: start;
+  gap: 16px;
+  align-items: center;
 }
 
 .title {
   font-weight: 800;
-  font-size: 56px;
-  line-height: 60px;
+  font-size: 32px;
+  line-height: 36px;
   color: #ffffff;
   text-align: left;
 }
@@ -47,23 +48,26 @@
     border-color: transparent;
   }
 }
+
 .position {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 112%;
-  color: #474a57;
+  color: #686a75;
 }
 
 .image {
   border: 2px solid #ffdccc;
   border-radius: 10px;
   box-shadow: 9px 4px 0 #ffdccc;
+  width: 100%;
 }
 
 .buttons {
   display: flex;
-  flex-direction: row;
-  gap: 20px;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
 }
 
 .button {
@@ -74,7 +78,7 @@
   border-radius: 15px;
   padding: 12px 32px;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
   color: #fff;
   background-color: #576bdf;
   border: 2px solid #ffdccc;
@@ -86,4 +90,55 @@
 .button:focus {
   color: #ff69b4;
   transform: scale(1.04);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 4px;
+}
+
+/* Media Queries for Desktop */
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    flex-direction: row;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    gap: 104px;
+  }
+
+  .textAndButtons {
+    align-items: start;
+    gap: 20px;
+  }
+
+  .text {
+    gap: 20px;
+  }
+
+  .title {
+    font-size: 56px;
+    line-height: 60px;
+    text-align: left;
+  }
+
+  .position {
+    font-size: 28px;
+  }
+  .image {
+    width: 350px;
+    height: 400px;
+  }
+
+  .buttons {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .button {
+    font-size: 32px;
+  }
 }
