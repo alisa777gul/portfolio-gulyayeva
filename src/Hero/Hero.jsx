@@ -18,7 +18,7 @@ const Hero = () => {
           Hire me
         </button>
         <a
-          href="/public/Alisa_Gulyayeva_FrontEndDeveloper.pdf"
+          href="/Alisa_Gulyayeva_FrontEndDeveloper.pdf"
           download="Alisa_Gulyayeva_CV"
           className={css.button}
         >

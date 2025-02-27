@@ -27,7 +27,7 @@ function Header() {
       <div className={`${css.mobileMenu} ${menuOpen ? css.open : ""}`}>
         <ul>
           <li className={css.element} onClick={clickOnNav}>
-            <a href="#home">Home</a>
+            <a href="#">Home</a>
           </li>
           <li className={css.element} onClick={clickOnNav}>
             <a href="#">About</a>
