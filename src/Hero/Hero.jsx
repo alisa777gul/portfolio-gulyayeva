@@ -11,7 +11,7 @@ const Hero = () => {
           <br />
           <span className={css.secondLine}>I'm Alisa Gulyayeva</span>
         </h1>
-        <p className={css.position}>Frontend Developer</p>{" "}
+        <p className={css.position}>Front-End Developer</p>{" "}
       </div>
       <div className={css.buttons}>
         <button type="button" className={css.button}>

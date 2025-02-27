@@ -1,6 +1,6 @@
 .hero {
   display: grid;
-  padding-bottom: 40px;
+  margin-bottom: 60px;
   padding-top: 32px;
   gap: 40px;
   grid-template-rows: auto auto 1fr;
@@ -106,7 +106,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-bottom: 80px;
+    margin-bottom: 80px;
     padding-top: 40px;
     column-gap: 104px;
     row-gap: 44px;
