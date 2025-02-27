@@ -1,0 +1,14 @@
+.about {
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 20px;
+  background-color: #61a35f;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 36px;
+  color: #ffffff;
+  text-align: left;
+}

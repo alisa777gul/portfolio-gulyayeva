@@ -1,9 +1,9 @@
 .hero {
-  display: grid; /* Для мобильных устройств используется grid */
+  display: grid;
   padding-bottom: 40px;
   padding-top: 32px;
   gap: 40px;
-  grid-template-rows: auto auto 1fr; /* Три строки для текста, кнопок и изображения */
+  grid-template-rows: auto auto 1fr;
   justify-items: center;
 }
 
@@ -63,7 +63,7 @@
 
 .buttons {
   display: flex;
-  flex-direction: column; /* Кнопки под текстом на мобильных устройствах */
+  flex-direction: column;
   gap: 16px;
   align-items: center;
   order: 3;
@@ -99,7 +99,6 @@
   gap: 4px;
 }
 
-/* Media Queries for Desktop */
 @media screen and (min-width: 1200px) {
   .hero {
     grid-template-rows: 0;
@@ -107,7 +106,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     padding-top: 40px;
     column-gap: 104px;
     row-gap: 44px;
