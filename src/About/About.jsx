@@ -19,9 +19,9 @@ export const About = () => {
           impactful projects.
         </p>
         <div className={css.buttons}>
-          <button type="button" className={css.button}>
+          <a href="#projects" className={css.button}>
             My projects
-          </button>
+          </a>
           <a
             href="/Alisa_Gulyayeva_FrontEndDeveloper.pdf"
             download="Alisa_Gulyayeva_CV"

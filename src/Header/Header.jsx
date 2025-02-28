@@ -33,7 +33,7 @@ function Header() {
             <a href="#about">About</a>
           </li>
           <li className={css.element} onClick={clickOnNav}>
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className={css.element} onClick={clickOnNav}>
             <a href="#">Contact me</a>
@@ -50,7 +50,7 @@ function Header() {
             <a href="#about">About</a>
           </li>
           <li className={css.element}>
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className={css.element}>
             <a href="#">Contact me</a>

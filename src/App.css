@@ -7,11 +7,23 @@
   background-color: #b7b1f2;
   box-shadow: 5px 0 10px rgba(150, 144, 207, 0.6),
     -5px 0 10px rgba(150, 144, 207, 0.6);
+  --swiper-pagination-color: #576bdf;
+  --swiper-pagination-bullet-size: 10px;
+  --swiper-pagination-bullet-width: 10px;
+  --swiper-pagination-bullet-height: 10px;
+  --swiper-pagination-bullet-inactive-color: #000;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
 }
 
 @media (min-width: 1200px) {
   #root {
     padding: 0 60px;
     max-width: 1200px;
+    --swiper-pagination-bullet-size: 16px;
+    --swiper-pagination-bullet-width: 16px;
+    --swiper-pagination-bullet-height: 16px;
   }
 }

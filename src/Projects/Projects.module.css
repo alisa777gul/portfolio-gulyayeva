@@ -1,0 +1,44 @@
+.title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.projects {
+  padding-bottom: 80px;
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 56px;
+    line-height: 60px;
+    text-align: left;
+  }
+}
+.filter {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.filter button {
+  padding: 10px 20px;
+  background-color: #576bdf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter button:hover {
+  background-color: #4a59b7;
+}
+
+.filter button.activeFilter {
+  background-color: #ff69b4;
+}
