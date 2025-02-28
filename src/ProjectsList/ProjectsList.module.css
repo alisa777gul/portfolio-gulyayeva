@@ -10,10 +10,6 @@
   .swiperCont {
     height: 400px;
   }
-
-  .swiper-slide {
-    width: calc(33.33% - 20px);
-  }
 }
 
 .noProjects {
