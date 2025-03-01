@@ -1,6 +1,6 @@
 import css from "./About.module.css";
 import React from "react";
-import image from "../assets/alissa.jpg";
+import image from "../assets/girl.png";
 export const About = () => {
   return (
     <div className={css.about} id="about">

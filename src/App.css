@@ -16,11 +16,14 @@
   --swiper-pagination-bullet-opacity: 1;
   --swiper-pagination-bullet-horizontal-gap: 4px;
   --swiper-pagination-bullet-vertical-gap: 6px;
+  --swiper-button-next-display: none;
+  padding-top: 80px;
 }
 
 @media (min-width: 1200px) {
   #root {
     padding: 0 60px;
+    padding-top: 100px;
     max-width: 1200px;
     --swiper-pagination-bullet-size: 16px;
     --swiper-pagination-bullet-width: 16px;

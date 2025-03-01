@@ -1,18 +1,24 @@
-/* Mobile First Styling */
-
 .header {
   background-color: #fdb7ea;
   padding: 12px 20px;
   border-radius: 0 0 36px 36px;
-
-  position: sticky;
-  left: -50%;
-  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  z-index: 1000;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  transition: border-radius 0.1s ease;
+}
+
+.header.open {
+  border-radius: 0 0px 0px 36px;
+}
+
+.mobileMenu.open {
+  border-radius: 0 0px 0px 36px;
 }
 
 .logo {
@@ -23,7 +29,6 @@
   align-items: center;
   font-weight: 800;
   font-size: 24px;
-  text-align: center;
   color: #576bdf;
   border-radius: 50%;
   border: 2px solid #ffdccc;
@@ -38,12 +43,13 @@
   transform: rotate(360deg);
 }
 
-/* Mobile Menu - Default (Hidden) */
 .burger {
   display: flex;
   flex-direction: column;
   gap: 6px;
   cursor: pointer;
+  background: none;
+  border: none;
 }
 
 .burgerLine {
@@ -52,72 +58,45 @@
   background-color: #ffffff;
   transition: 0.3s;
 }
-.burgerLine.hover,
-.burgerLine:focus {
+
+.burger:hover .burgerLine {
   background-color: #ff69b4;
   transform: scale(1.1);
 }
-.mobileMenu {
+
+.navigation {
   display: none;
+}
+
+.mobileMenu {
+  display: flex;
   position: absolute;
   top: 100%;
   right: 0;
-  width: 50%;
+  width: 30%;
   background-color: #fdb7ea;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 10px 10px 10px;
   z-index: 999;
-}
-
-.mobileMenu.open {
-  display: block;
-}
-.header.open {
-  border-radius: 0 0 0px 36px;
-}
-
-.mobileMenu ul {
-  display: flex;
   flex-direction: column;
   gap: 16px;
   padding: 20px;
-  list-style: none;
-  margin: 0;
-}
-
-.element a {
-  color: #576bdf;
-  font-size: 22px;
-  text-decoration: none;
-}
-
-.navigation {
-  display: none; /* Hide desktop menu on mobile */
 }
 
 .element a {
   color: #fff;
-  font-family: var(--font-family);
   font-weight: 600;
   font-size: 16px;
   transition: color 0.4s ease, transform 0.4s ease;
 }
 
-.element a:hover,
-.element a:focus {
+.element a:hover {
   color: #ff69b4;
   transform: scale(1.1);
 }
 
-/* Media Queries for Desktop and larger screens */
 @media screen and (min-width: 1200px) {
   .header {
     padding: 20px 60px;
-    max-height: 113px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 0 36px 36px;
-  }
-  .header.open {
     border-radius: 0 0 36px 36px;
   }
 
@@ -128,30 +107,18 @@
   }
 
   .element a {
-    color: #fff;
-    font-family: var(--font-family);
-    font-weight: 600;
     font-size: 28px;
-    transition: color 0.4s ease, transform 0.4s ease;
-  }
-
-  .element a:hover,
-  .element a:focus {
-    color: #ff69b4;
-    transform: scale(1.1);
   }
 
   .navigation {
-    display: flex; /* Show desktop menu on larger screens */
-    margin-left: auto;
+    display: flex;
   }
 
   .burger {
-    display: none; /* Hide burger menu on desktop */
+    display: none;
   }
 
-  /* Hide the mobile menu on desktop */
   .mobileMenu {
-    display: none !important; /* Ensure the mobile menu is never visible on desktop */
+    display: none;
   }
 }
