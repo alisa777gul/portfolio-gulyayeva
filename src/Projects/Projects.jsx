@@ -16,37 +16,39 @@ export const Projects = () => {
   };
 
   return (
-    <div className={css.projects} id="projects">
-      <h2 className={css.title}>My Projects</h2>
+    <section className={css.section} id="projects">
+      <div className={css.projects}>
+        <h2 className={css.title}>My Projects</h2>
 
-      <div className={css.filter}>
-        <button
-          onClick={() => handleFilterChange("all")}
-          className={filter === "all" ? css.activeFilter : ""}
-        >
-          All
-        </button>
-        <button
-          onClick={() => handleFilterChange("frontend")}
-          className={filter === "frontend" ? css.activeFilter : ""}
-        >
-          Frontend
-        </button>
-        <button
-          onClick={() => handleFilterChange("backend")}
-          className={filter === "backend" ? css.activeFilter : ""}
-        >
-          Backend
-        </button>
-        <button
-          onClick={() => handleFilterChange("fullstack")}
-          className={filter === "fullstack" ? css.activeFilter : ""}
-        >
-          Fullstack
-        </button>
+        <div className={css.filter}>
+          <button
+            onClick={() => handleFilterChange("all")}
+            className={filter === "all" ? css.activeFilter : ""}
+          >
+            All
+          </button>
+          <button
+            onClick={() => handleFilterChange("frontend")}
+            className={filter === "frontend" ? css.activeFilter : ""}
+          >
+            Frontend
+          </button>
+          <button
+            onClick={() => handleFilterChange("backend")}
+            className={filter === "backend" ? css.activeFilter : ""}
+          >
+            Backend
+          </button>
+          <button
+            onClick={() => handleFilterChange("fullstack")}
+            className={filter === "fullstack" ? css.activeFilter : ""}
+          >
+            Fullstack
+          </button>
+        </div>
+
+        <ProjectsList projects={filteredProjects} />
       </div>
-
-      <ProjectsList projects={filteredProjects} />
-    </div>
+    </section>
   );
 };

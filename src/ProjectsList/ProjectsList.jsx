@@ -12,13 +12,12 @@ import {
   EffectCoverflow,
   Autoplay,
   Keyboard,
-  Navigation, // Add navigation module
+  Navigation,
 } from "swiper/modules";
 
 export const ProjectsList = ({ projects }) => {
   return (
     <>
-      {/* Show the Swiper only if there are projects */}
       {projects.length > 0 ? (
         <Swiper
           className={css.swiperCont}
@@ -34,10 +33,11 @@ export const ProjectsList = ({ projects }) => {
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={1}
-          loop={true}
+          loop={false}
           autoplay={{
             delay: 7000,
             disableOnInteraction: false,
+            reverseDirection: true,
           }}
           keyboard={{
             enabled: true,
@@ -69,7 +69,10 @@ export const ProjectsList = ({ projects }) => {
           }}
         >
           {projects.map((project) => (
-            <SwiperSlide key={project.id}>
+            <SwiperSlide
+              key={project.id}
+              className={project.id % 2 === 0 ? css.even : css.odd}
+            >
               <Project project={project} />
             </SwiperSlide>
           ))}

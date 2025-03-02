@@ -1,15 +1,9 @@
 .swiperCont {
-  height: 360px;
-  width: 95%;
+  height: 380px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
   padding-bottom: 90px;
-}
-
-@media (min-width: 1200px) {
-  .swiperCont {
-    height: 400px;
-  }
 }
 
 .noProjects {
@@ -20,4 +14,27 @@
 .swiper-button-next,
 .swiper-button-prev {
   display: none;
+}
+
+.odd {
+  background-color: #576bdf;
+  max-height: 350px;
+  border-radius: 20px;
+}
+
+.even {
+  background-color: #b395dd;
+  max-height: 350px;
+  border-radius: 20px;
+}
+
+@media (min-width: 1200px) {
+  .swiperCont {
+    height: 400px;
+  }
+  .noProjects {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+  }
 }

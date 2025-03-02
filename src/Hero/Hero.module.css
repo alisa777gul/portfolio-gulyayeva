@@ -1,10 +1,10 @@
 .hero {
   display: grid;
-  margin-bottom: 60px;
-  padding-top: 32px;
   gap: 40px;
   grid-template-rows: auto auto 1fr;
   justify-items: center;
+  padding: 0 20px;
+  padding-top: 32px;
 }
 
 .textAndButtons {
@@ -12,6 +12,12 @@
   flex-direction: column;
   gap: 16px;
   align-items: center;
+}
+
+.section {
+  background: linear-gradient(to bottom, #b7b1f2, #f5d7c6, #f1a7c0, #b7b1f2);
+
+  padding: 0;
 }
 
 .title {
@@ -103,14 +109,17 @@
   .hero {
     grid-template-rows: 0;
     display: flex;
+    flex-wrap: wrap;
+    padding: 0 60px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 80px;
     padding-top: 40px;
     column-gap: 104px;
     row-gap: 44px;
-    flex-wrap: wrap;
+  }
+  .section {
+    padding: 0;
   }
 
   .text {

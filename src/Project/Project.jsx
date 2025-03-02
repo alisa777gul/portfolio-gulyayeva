@@ -8,7 +8,6 @@ export const Project = ({ project }) => {
       <p className={css.tech}>{project.tech}</p>
       <img src={project.photo} className={css.photo} />
       <div className={css.links}>
-        {" "}
         <a href={project.git} className={css.link} target="_blank">
           GitHub
         </a>

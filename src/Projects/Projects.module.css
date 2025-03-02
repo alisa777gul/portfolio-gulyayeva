@@ -7,21 +7,6 @@
   margin-bottom: 24px;
 }
 
-.projects {
-  margin-bottom: 60px;
-}
-
-@media (min-width: 1200px) {
-  .title {
-    font-size: 56px;
-    line-height: 60px;
-    text-align: left;
-  }
-
-  .projects {
-    margin-bottom: 80px;
-  }
-}
 .filter {
   display: flex;
   gap: 10px;
@@ -45,4 +30,20 @@
 
 .filter button.activeFilter {
   background-color: #ff69b4;
+}
+@media (min-width: 1200px) {
+  .title {
+    font-size: 56px;
+    line-height: 60px;
+    text-align: left;
+  }
+
+  .filter button {
+    font-size: 20px;
+    padding: 16px 20px;
+  }
+
+  .filter {
+    margin-bottom: 56px;
+  }
 }

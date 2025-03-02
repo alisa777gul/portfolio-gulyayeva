@@ -5,6 +5,7 @@ import Header from "./Header/Header.jsx";
 import Hero from "./Hero/Hero.jsx";
 import { About } from "./About/About.jsx";
 import { Projects } from "./Projects/Projects.jsx";
+import { Contact } from "./Contact/Contact.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <Contact />
     </>
   );
 }

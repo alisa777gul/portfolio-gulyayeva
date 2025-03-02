@@ -3,6 +3,7 @@
   background-color: #fff;
   border-radius: 20px;
   background-color: #fbf3b9;
+
   padding: 20px;
 
   display: flex;
@@ -10,7 +11,6 @@
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  margin-bottom: 60px;
 }
 
 .title {
@@ -80,7 +80,6 @@
     justify-content: space-around;
     max-width: 1200px;
     padding: 32px;
-    margin-bottom: 80px;
   }
   .title {
     font-size: 56px;
