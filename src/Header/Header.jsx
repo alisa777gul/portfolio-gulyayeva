@@ -8,7 +8,7 @@ function Header() {
 
   const handleNavClick = (e, id) => {
     e.preventDefault();
-    setMenuOpen(false); // Закрываем меню
+    setMenuOpen(false);
 
     if (id === "home") {
       window.scrollTo({ top: 0, behavior: "smooth" });

@@ -17,9 +17,9 @@ const Hero = () => {
           <p className={css.position}>Front-End Developer</p>{" "}
         </div>
         <div className={css.buttons}>
-          <button type="button" className={css.button}>
+          <a href="mailto:gulyayevaalisa@gmail.com" className={css.button}>
             Hire me
-          </button>
+          </a>
           <a
             href="/Alisa_Gulyayeva_FrontEndDeveloper.pdf"
             download="Alisa_Gulyayeva_CV"

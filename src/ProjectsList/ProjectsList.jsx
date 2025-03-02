@@ -37,7 +37,6 @@ export const ProjectsList = ({ projects }) => {
           autoplay={{
             delay: 7000,
             disableOnInteraction: false,
-            reverseDirection: true,
           }}
           keyboard={{
             enabled: true,
