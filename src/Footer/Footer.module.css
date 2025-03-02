@@ -57,6 +57,7 @@
 
 .rights {
   margin-left: auto;
+  font-size: 10px;
 }
 
 .socials {
@@ -157,6 +158,10 @@
     font-size: 16px;
 
     margin-top: 32px;
+  }
+
+  .rights {
+    font-size: 16px;
   }
 
   .socials {
