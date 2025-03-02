@@ -14,22 +14,25 @@ export const Footer = () => {
       <p className={css.text}>Code. Create. Inspire.</p>
       <ul className={css.socials}>
         <li className={css.social}>
-          <a href="https://www.instagram.com/frursnlshwumhrt/">
+          <a href="https://www.instagram.com/frursnlshwumhrt/" target="_blank">
             <img src="/ig.svg" alt="insta" />
           </a>
         </li>
         <li className={css.social}>
-          <a href="https://t.me/iiikkklllm">
+          <a href="https://t.me/iiikkklllm" target="_blank">
             <img src="/tg.svg" alt="telegram" />
           </a>
         </li>
         <li className={css.social}>
-          <a href="https://github.com/alisa777gul">
+          <a href="https://github.com/alisa777gul" target="_blank">
             <img src="/git.svg" alt="github" />
           </a>
         </li>
         <li className={css.social}>
-          <a href="https://www.linkedin.com/in/alisa-gulyayeva/">
+          <a
+            href="https://www.linkedin.com/in/alisa-gulyayeva/"
+            target="_blank"
+          >
             <img src="/linked.svg" alt="linkedin" />
           </a>
         </li>
