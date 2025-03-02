@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { setFilter } from "../redux/filterSlice.js";
 import css from "./Projects.module.css";
 import { ProjectsList } from "../ProjectsList/ProjectsList";
-import projects from "../json/projects.json"; // Import your projects data
+import projects from "../json/projects.json";
 
 export const Projects = () => {
-  const [filter, setFilter] = useState("all");
+  const filter = useSelector((state) => state.filter.filter);
+  const dispatch = useDispatch();
 
   const filteredProjects =
     filter === "all"
@@ -12,14 +15,13 @@ export const Projects = () => {
       : projects.filter((project) => project.category === filter);
 
   const handleFilterChange = (filterType) => {
-    setFilter(filterType);
+    dispatch(setFilter(filterType));
   };
 
   return (
     <section className={css.section} id="projects">
       <div className={css.projects}>
         <h2 className={css.title}>My Projects</h2>
-
         <div className={css.filter}>
           <button
             onClick={() => handleFilterChange("all")}

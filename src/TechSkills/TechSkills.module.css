@@ -1,0 +1,30 @@
+.marqueeContainer {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: linear-gradient(to right, #b7b1f2, #f5d7c6, #b7b1f2);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.marqueeItem {
+  font-size: 20px;
+  color: #686a75;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .marqueeItem {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .marqueeItem {
+    font-size: 28px;
+  }
+}

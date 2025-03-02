@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./About.module.css";
 import image from "../assets/girl.png";
+import TechSkills from "../TechSkills/TechSkills";
 
 export const About = () => {
   const handleNavClick = (e, id) => {
@@ -15,6 +16,7 @@ export const About = () => {
 
   return (
     <section className={css.section} id="about">
+      <TechSkills />
       <div className={css.about}>
         <img className={css.image} src={image} alt="Alisa Gulyayeva" />
         <div className={css.all}>
@@ -48,6 +50,7 @@ export const About = () => {
           </div>
         </div>
       </div>
+      <TechSkills direction="right" />
     </section>
   );
 };
