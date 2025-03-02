@@ -40,6 +40,7 @@
   background-color: #fdb7ea;
   display: flex;
   flex-direction: column;
+  margin-top: auto;
 }
 
 .info {
