@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./About.module.css";
-import image from "../assets/girl.png";
+import image from "../assets/girl.webp";
 import TechSkills from "../TechSkills/TechSkills";
 
 export const About = () => {

@@ -1,14 +1,14 @@
-[ {"id":1,"name": "Call of Victory","category":"frontend","git":"https://github.com/Igor-Tymchuk/stp-7969","live":"https://igor-tymchuk.github.io/stp-7969/","photo":"/call.png"},
-    {"id":2,"name": "Contact Manager","category":"frontend","git":"https://github.com/alisa777gul/goit-react-hw-08","live":"https://goit-react-hw-08-pied-seven.vercel.app","photo":"/contact.png"},
- {"id":3,"name": "Image Search","category":"frontend","git":"https://github.com/alisa777gul/goit-typescript-hw-02","live":"https://goit-typescript-hw-02-swart-two.vercel.app","photo":"/image-src.png"},
+[ {"id":1,"name": "Call of Victory","category":"frontend","git":"https://github.com/Igor-Tymchuk/stp-7969","live":"https://igor-tymchuk.github.io/stp-7969/","photo":"/call.webp"},
+    {"id":2,"name": "Contact Manager","category":"frontend","git":"https://github.com/alisa777gul/goit-react-hw-08","live":"https://goit-react-hw-08-pied-seven.vercel.app","photo":"/contact.webp"},
+ {"id":3,"name": "Image Search","category":"frontend","git":"https://github.com/alisa777gul/goit-typescript-hw-02","live":"https://goit-typescript-hw-02-swart-two.vercel.app","photo":"/image-src.webp"},
 
- {"id":4,"name": "Movie search","category":"frontend","git":"https://github.com/alisa777gul/goit-react-hw-05","live":"https://goit-react-hw-05-fwip.vercel.app","photo":"/movie.png"},
+ {"id":4,"name": "Movie search","category":"frontend","git":"https://github.com/alisa777gul/goit-react-hw-05","live":"https://goit-react-hw-05-fwip.vercel.app","photo":"/movie.webp"},
 
- {"id":5,"name": "Lloyd Jefferson's Portfolio","category":"frontend","git":"https://github.com/DenysHV1/team-portfolio-js","live":"https://denyshv1.github.io/team-portfolio-js/","photo":"/lloyd.png"},
- {"id":6,"name": "WatchCharm","category":"frontend","git":"https://github.com/alisa777gul/project-SmartCats","live":"https://alisa777gul.github.io/project-SmartCats/","photo":"/watch.png"},
-  {"id":7,"name": "WebStudio","category":"frontend","git":"https://github.com/alisa777gul/goit-markup-hw-06","live":"https://alisa777gul.github.io/goit-markup-hw-06/index.html","photo":"/web.png"},
+ {"id":5,"name": "Lloyd Jefferson's Portfolio","category":"frontend","git":"https://github.com/DenysHV1/team-portfolio-js","live":"https://denyshv1.github.io/team-portfolio-js/","photo":"/lloyd.webp"},
+ {"id":6,"name": "WatchCharm","category":"frontend","git":"https://github.com/alisa777gul/project-SmartCats","live":"https://alisa777gul.github.io/project-SmartCats/","photo":"/watch.webp"},
+  {"id":7,"name": "WebStudio","category":"frontend","git":"https://github.com/alisa777gul/goit-markup-hw-06","live":"https://alisa777gul.github.io/goit-markup-hw-06/index.html","photo":"/web.webp"},
 
- {"id":8,"name": "Contact Manager - Backend","category":"backend","git":"https://github.com/alisa777gul/nodejs-hw-02","live":"https://nodejs-hw-07.onrender.com/api-docs/","photo":"/backend.png"}
+ {"id":8,"name": "Contact Manager - Backend","category":"backend","git":"https://github.com/alisa777gul/nodejs-hw-02","live":"https://nodejs-hw-07.onrender.com/api-docs/","photo":"/backend.webp"}
  
 
 ]
