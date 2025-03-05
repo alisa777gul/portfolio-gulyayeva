@@ -14,7 +14,7 @@ const Hero = () => {
             <br />
             <span className={css.secondLine}>I'm Alisa Gulyayeva</span>
           </h2>
-          <p className={css.position}>Front-End Developer</p>{" "}
+          <p className={css.position}>Front-End Developer</p>
         </div>
         <div className={css.buttons}>
           <a href="mailto:gulyayevaalisa@gmail.com" className={css.button}>
@@ -28,7 +28,12 @@ const Hero = () => {
             Download CV
           </a>
         </div>
-        <img className={css.image} src={image} alt="Alisa Gulyayeva" />
+        <img
+          className={css.image}
+          src={image}
+          alt="Alisa Gulyayeva"
+          loading="lazy"
+        />
       </div>
     </section>
   );

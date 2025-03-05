@@ -18,7 +18,12 @@ export const About = () => {
     <section className={css.section} id="about">
       <TechSkills />
       <div className={css.about}>
-        <img className={css.image} src={image} alt="Alisa Gulyayeva" />
+        <img
+          className={css.image}
+          src={image}
+          alt="Alisa Gulyayeva"
+          loading="lazy"
+        />
         <div className={css.all}>
           <h2 className={css.title}>About me</h2>
           <h3 className={css.position}>Front-End developer</h3>
