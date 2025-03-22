@@ -33,7 +33,6 @@
   border: 2px solid #ffdccc;
   background-color: #fbf3b9;
   box-shadow: 4px 4px 0 #ffdccc;
-  transition: background-color 0.4s ease, transform 0.4s ease;
 }
 
 .logo:hover {
@@ -43,23 +42,20 @@
 }
 
 .burger {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
   cursor: pointer;
-  background: none;
   border: none;
 }
 
-.burgerLine {
-  width: 30px;
-  height: 3px;
-  background-color: #ffffff;
-  transition: 0.3s;
+.icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  fill: #576bdf;
+  transition: fill 0.4s ease, transform 0.4s ease;
 }
 
-.burger:hover .burgerLine {
-  background-color: #ff69b4;
+.burger:hover .icon {
+  fill: #ff69b4;
   transform: scale(1.1);
 }
 
@@ -110,7 +106,7 @@
 
   .list {
     flex-direction: row;
-    gap: 48px;
+    gap: 32px;
   }
 
   .element a {

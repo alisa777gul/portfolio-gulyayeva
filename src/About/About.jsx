@@ -2,8 +2,11 @@ import React from "react";
 import css from "./About.module.css";
 import image from "../assets/girl.webp";
 import TechSkills from "../TechSkills/TechSkills";
+import { useTranslation } from "react-i18next";
 
 export const About = () => {
+  const { t } = useTranslation();
+
   const handleNavClick = (e, id) => {
     e.preventDefault();
     const section = document.querySelector(`#${id}`);
@@ -25,25 +28,16 @@ export const About = () => {
           loading="lazy"
         />
         <div className={css.all}>
-          <h2 className={css.title}>About me</h2>
-          <h3 className={css.position}>Front-End developer</h3>
-          <p className={css.text}>
-            I am a Junior Front-End Developer skilled in HTML5, CSS3,
-            JavaScript, and React. I am passionate about creating user-friendly,
-            modern web solutions and continually improving my technical
-            expertise. I adapt quickly to new environments, solve challenges
-            effectively, and thrive in team settings. My strengths include
-            analytical thinking, troubleshooting, and a proactive attitude that
-            helps deliver high-quality results. I value growth, teamwork, and
-            contributing to impactful projects.
-          </p>
+          <h2 className={css.title}>{t("about_title")}</h2>
+          <h3 className={css.position}>Front-End {t("developer")}</h3>
+          <p className={css.text}>{t("about_text")}</p>
           <div className={css.buttons}>
             <a
               href="#projects"
               className={css.button}
               onClick={(e) => handleNavClick(e, "projects")}
             >
-              My projects
+              {t("projects_title")}
             </a>
             <a
               href="/Alisa_Gulyayeva_FrontEndDeveloper.pdf"

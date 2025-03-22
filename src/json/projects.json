@@ -1,14 +1,15 @@
 [ {"id":1,"name": "Call of Victory","category":"frontend","git":"https://github.com/Igor-Tymchuk/stp-7969","live":"https://igor-tymchuk.github.io/stp-7969/","photo":"/call.webp","tech":["HTML","SCSS","JS"]},
     {"id":2,"name": "Contact Manager","category":"frontend","git":"https://github.com/alisa777gul/goit-react-hw-08","live":"https://goit-react-hw-08-pied-seven.vercel.app","photo":"/contact.webp","tech":["React","React Redux","React Router","CSS"]},
- {"id":3,"name": "Image Search","category":"frontend","git":"https://github.com/alisa777gul/goit-typescript-hw-02","live":"https://goit-typescript-hw-02-swart-two.vercel.app","photo":"/image-src.webp","tech":["React","TypeScript","CSS"]},
+  {"id":3,"name": "Aquatrack","category":"fullstack","git":"https://github.com/Artur-Luniaka/aquacoders","live":"https://aquacoders.vercel.app","photo":"/aquatrack.webp","tech":["React","React Redux","React Router","Node.Js"]},
+ {"id":4,"name": "Image Search","category":"frontend","git":"https://github.com/alisa777gul/goit-typescript-hw-02","live":"https://goit-typescript-hw-02-swart-two.vercel.app","photo":"/image-src.webp","tech":["React","TypeScript","CSS"]},
 
- {"id":4,"name": "Movie search","category":"frontend","git":"https://github.com/alisa777gul/goit-react-hw-05","live":"https://goit-react-hw-05-fwip.vercel.app","photo":"/movie.webp","tech":["React","React Router","CSS"]},
+ {"id":5,"name": "Movie search","category":"frontend","git":"https://github.com/alisa777gul/goit-react-hw-05","live":"https://goit-react-hw-05-fwip.vercel.app","photo":"/movie.webp","tech":["React","React Router","CSS"]},
 
- {"id":5,"name": "Lloyd Jefferson's Portfolio","category":"frontend","git":"https://github.com/DenysHV1/team-portfolio-js","live":"https://denyshv1.github.io/team-portfolio-js/","photo":"/lloyd.webp","tech":["HTML","CSS","JS"]},
- {"id":6,"name": "WatchCharm","category":"frontend","git":"https://github.com/alisa777gul/project-SmartCats","live":"https://alisa777gul.github.io/project-SmartCats/","photo":"/watch.webp","tech":["HTML","CSS","JS"]},
-  {"id":7,"name": "WebStudio","category":"frontend","git":"https://github.com/alisa777gul/goit-markup-hw-06","live":"https://alisa777gul.github.io/goit-markup-hw-06/index.html","photo":"/web.webp","tech":["HTML","CSS","JS"]},
+ {"id":6,"name": "Lloyd Jefferson's Portfolio","category":"frontend","git":"https://github.com/DenysHV1/team-portfolio-js","live":"https://denyshv1.github.io/team-portfolio-js/","photo":"/lloyd.webp","tech":["HTML","CSS","JS"]},
+ {"id":7,"name": "WatchCharm","category":"frontend","git":"https://github.com/alisa777gul/project-SmartCats","live":"https://alisa777gul.github.io/project-SmartCats/","photo":"/watch.webp","tech":["HTML","CSS","JS"]},
+  {"id":8,"name": "WebStudio","category":"frontend","git":"https://github.com/alisa777gul/goit-markup-hw-06","live":"https://alisa777gul.github.io/goit-markup-hw-06/index.html","photo":"/web.webp","tech":["HTML","CSS","JS"]},
 
- {"id":8,"name": "Contact Manager - Backend","category":"backend","git":"https://github.com/alisa777gul/nodejs-hw-02","live":"https://nodejs-hw-07.onrender.com/api-docs/","photo":"/backend.webp","tech":["Node.Js","Express","Swagger"]}
- 
+ {"id":9,"name": "Contact Manager - Backend","category":"backend","git":"https://github.com/alisa777gul/nodejs-hw-02","live":"https://nodejs-hw-07.onrender.com/api-docs/","photo":"/backend.webp","tech":["Node.Js","Express","Swagger"]}
+
 
 ]

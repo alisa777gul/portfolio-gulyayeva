@@ -2,30 +2,33 @@ import React from "react";
 import image from "../assets/alisa.webp";
 import css from "./Hero.module.css";
 import "../App.css";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className={css.section} id="home">
       <div className={css.hero}>
         <h1 className="visually-hidden"> Portfolio hero</h1>
         <div className={css.text}>
           <h2 className={css.title}>
-            <span className={css.firstLine}>Hello,</span>
+            <span className={css.firstLine}>{t("hello")},</span>
             <br />
-            <span className={css.secondLine}>I'm Alisa Gulyayeva</span>
+            <span className={css.secondLine}>{t("intro")}</span>
           </h2>
-          <p className={css.position}>Front-End Developer</p>
+          <p className={css.position}>Front-End {t("developer")}</p>
         </div>
         <div className={css.buttons}>
           <a href="mailto:gulyayevaalisa@gmail.com" className={css.button}>
-            Hire me
+            {t("hire")}
           </a>
           <a
             href="/Alisa_Gulyayeva_FrontEndDeveloper.pdf"
             download="Alisa_Gulyayeva_CV"
             className={css.button}
           >
-            Download CV
+            {t("cv")}
           </a>
         </div>
         <img

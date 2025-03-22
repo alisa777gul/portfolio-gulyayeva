@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from "react";
 import css from "./Header.module.css";
+import LangSwitcher from "../LangSwitcher/LangSwitcher.jsx";
+import { useTranslation } from "react-i18next";
+import icons from "../assets/sprite.svg";
 
 function Header() {
+  const { t } = useTranslation();
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => setMenuOpen((prev) => !prev);
@@ -40,15 +45,15 @@ function Header() {
       <a href="#" className={css.logo}>
         AG
       </a>
-
+      <LangSwitcher />
       <button
         className={css.burger}
         onClick={toggleMenu}
         aria-expanded={menuOpen}
       >
-        <div className={css.burgerLine}></div>
-        <div className={css.burgerLine}></div>
-        <div className={css.burgerLine}></div>
+        <svg className={css.icon}>
+          <use href={`${icons}#icon-menu`} />
+        </svg>
       </button>
 
       <nav
@@ -60,22 +65,22 @@ function Header() {
         <ul className={css.list}>
           <li className={css.element}>
             <a href="#" onClick={(e) => handleNavClick(e, "home")}>
-              Home
+              {t("home")}
             </a>
           </li>
           <li className={css.element}>
             <a href="#about" onClick={(e) => handleNavClick(e, "about")}>
-              About
+              {t("about")}
             </a>
           </li>
           <li className={css.element}>
             <a href="#projects" onClick={(e) => handleNavClick(e, "projects")}>
-              Projects
+              {t("projects")}
             </a>
           </li>
           <li className={css.element}>
             <a href="#contact" onClick={(e) => handleNavClick(e, "contact")}>
-              Contact me
+              {t("contact")}
             </a>
           </li>
         </ul>

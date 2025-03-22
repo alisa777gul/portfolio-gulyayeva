@@ -1,8 +1,11 @@
 import React from "react";
 import css from "./Footer.module.css";
 import icons from "../assets/sprite.svg";
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className={css.footer}>
       <div className={css.logoAndName}>
@@ -12,7 +15,7 @@ export const Footer = () => {
         <h3 className={css.name}>Alisa Gulyayeva</h3>
       </div>
 
-      <p className={css.text}>Code. Create. Inspire.</p>
+      <p className={css.text}>{t("moto")}</p>
       <ul className={css.socials}>
         <li className={css.social}>
           <a
@@ -65,11 +68,9 @@ export const Footer = () => {
           <svg className={css.pin} width={12} height={12}>
             <use href={`${icons}#icon-location`} />
           </svg>
-          <span> Slovakia</span>
+          <span> {t("country")}</span>
         </div>
-        <p className={css.rights}>
-          &#169; 2025, All Rights Reserved By alisa777gul.
-        </p>
+        <p className={css.rights}>&#169; {t("rights_text")}</p>
       </div>
     </footer>
   );
