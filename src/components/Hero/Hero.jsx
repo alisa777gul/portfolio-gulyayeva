@@ -1,7 +1,7 @@
 import React from "react";
-import image from "../assets/alisa.webp";
+import image from "../../assets/alisa.webp";
 import css from "./Hero.module.css";
-import "../App.css";
+import "../../App.css";
 import { useTranslation } from "react-i18next";
 
 const Hero = () => {

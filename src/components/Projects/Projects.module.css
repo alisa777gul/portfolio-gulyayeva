@@ -33,7 +33,7 @@
   background-color: #ff69b4;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .title {
     font-size: 56px;
     line-height: 60px;

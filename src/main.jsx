@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { Provider } from "react-redux";
 import store from "./redux/store.js";
 import "./i18n.js";
-import MainLoader from "./MainLoader/MainLoader.jsx";
+import MainLoader from "./components/MainLoader/MainLoader.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

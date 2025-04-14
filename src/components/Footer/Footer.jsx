@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./Footer.module.css";
-import icons from "../assets/sprite.svg";
+import icons from "../../assets/sprite.svg";
 import { useTranslation } from "react-i18next";
 
 export const Footer = () => {

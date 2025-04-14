@@ -62,7 +62,7 @@ export const ProjectsList = ({ projects }) => {
             scale: 1.1,
           }}
           breakpoints={{
-            1200: {
+            1024: {
               slidesPerView: 3,
             },
           }}

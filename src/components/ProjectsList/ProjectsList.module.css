@@ -28,7 +28,7 @@
   border-radius: 20px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .swiperCont {
     height: 400px;
   }

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import css from "./Header.module.css";
 import LangSwitcher from "../LangSwitcher/LangSwitcher.jsx";
 import { useTranslation } from "react-i18next";
-import icons from "../assets/sprite.svg";
+import icons from "../../assets/sprite.svg";
 
 function Header() {
   const { t } = useTranslation();

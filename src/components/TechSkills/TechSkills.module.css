@@ -23,7 +23,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .marqueeItem {
     font-size: 28px;
   }

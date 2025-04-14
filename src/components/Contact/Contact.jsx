@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./Contact.module.css";
 
-import "../App.css";
+import "../../App.css";
 import { useTranslation } from "react-i18next";
 
 export const Contact = () => {

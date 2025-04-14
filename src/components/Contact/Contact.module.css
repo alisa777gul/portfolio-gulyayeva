@@ -43,7 +43,7 @@
   transform: scale(1.04);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .contact {
     padding: 80px;
   }

@@ -1,9 +1,9 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { setFilter } from "../redux/filterSlice.js";
+import { setFilter } from "../../redux/filterSlice.js";
 import css from "./Projects.module.css";
-import { ProjectsList } from "../ProjectsList/ProjectsList";
-import projects from "../json/projects.json";
+import { ProjectsList } from "../ProjectsList/ProjectsList.jsx";
+import projects from "../../json/projects.json";
 import { useTranslation } from "react-i18next";
 
 export const Projects = () => {

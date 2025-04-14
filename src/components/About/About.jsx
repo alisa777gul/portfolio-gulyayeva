@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./About.module.css";
-import image from "../assets/girl.webp";
-import TechSkills from "../TechSkills/TechSkills";
+import image from "../../assets/girl.webp";
+import TechSkills from "../TechSkills/TechSkills.jsx";
 import { useTranslation } from "react-i18next";
 
 export const About = () => {

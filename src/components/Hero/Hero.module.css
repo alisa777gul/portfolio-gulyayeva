@@ -106,7 +106,7 @@
   gap: 4px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .hero {
     grid-template-rows: 0;
     display: flex;

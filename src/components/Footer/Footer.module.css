@@ -138,7 +138,7 @@
   align-items: center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .logo {
     width: 64px;
     height: 64px;
