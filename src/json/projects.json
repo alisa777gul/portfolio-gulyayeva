@@ -1,4 +1,7 @@
-[ {"id":1,"name": "Call of Victory","category":"frontend","git":"https://github.com/Igor-Tymchuk/stp-7969","live":"https://igor-tymchuk.github.io/stp-7969/","photo":"/call.webp","tech":["HTML","SCSS","JS"]},
+
+  [ {"id":"242","name": "Rental Car","category":"frontend","git":"https://github.com/alisa777gul/rental-car","live":"https://rental-car-seven-mu.vercel.app/","photo":"/rentalCar.webp","tech":["React","React Redux","React Router","CSS"]},
+
+   {"id":1,"name": "Call of Victory","category":"frontend","git":"https://github.com/Igor-Tymchuk/stp-7969","live":"https://igor-tymchuk.github.io/stp-7969/","photo":"/call.webp","tech":["HTML","SCSS","JS"]},
     {"id":2,"name": "Contact Manager","category":"frontend","git":"https://github.com/alisa777gul/goit-react-hw-08","live":"https://goit-react-hw-08-pied-seven.vercel.app","photo":"/contact.webp","tech":["React","React Redux","React Router","CSS"]},
   {"id":3,"name": "Aquatrack","category":"fullstack","git":"https://github.com/Artur-Luniaka/aquacoders","live":"https://aquacoders.vercel.app","photo":"/aquatrack.webp","tech":["React","React Redux","React Router","Node.Js"]},
  {"id":4,"name": "Image Search","category":"frontend","git":"https://github.com/alisa777gul/goit-typescript-hw-02","live":"https://goit-typescript-hw-02-swart-two.vercel.app","photo":"/image-src.webp","tech":["React","TypeScript","CSS"]},
