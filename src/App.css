@@ -1,12 +1,12 @@
 #root {
-  max-width: 375px;
+  width: 375px;
   margin: 0 auto;
 
   text-align: center;
   overflow: hidden;
   background-color: #b7b1f2;
-  box-shadow: 5px 0 10px rgba(150, 144, 207, 0.6),
-    -5px 0 10px rgba(150, 144, 207, 0.6);
+  box-shadow: 3px 0 8px rgba(150, 144, 207, 0.6),
+    -3px 0 8px rgba(150, 144, 207, 0.6);
   --swiper-pagination-color: #576bdf;
   --swiper-pagination-bullet-size: 10px;
   --swiper-pagination-bullet-width: 10px;
@@ -32,7 +32,7 @@
 @media (min-width: 1024px) {
   #root {
     padding-top: 100px;
-    max-width: 1200px;
+    width: 1200px;
     --swiper-pagination-bullet-size: 16px;
     --swiper-pagination-bullet-width: 16px;
     --swiper-pagination-bullet-height: 16px;

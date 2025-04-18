@@ -9,6 +9,7 @@
 
 .photo {
   max-height: 185px;
+  aspect-ratio: 300 / 185;
   border-radius: 20px;
   border: 2px solid #ffdccc;
   box-shadow: 9px 4px 0 #ffdccc;
@@ -71,5 +72,6 @@
   .photo {
     width: 300px;
     min-height: 170px;
+    aspect-ratio: 300 / 185;
   }
 }
