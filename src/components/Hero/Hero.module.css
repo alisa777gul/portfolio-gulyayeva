@@ -61,16 +61,18 @@
   color: #686a75;
   width: 216px;
 }
+.imageWrapper {
+  width: 100%;
+  height: auto;
+}
 
 .image {
   border: 2px solid #ffdccc;
   border-radius: 10px;
   box-shadow: 9px 4px 0 #ffdccc;
   width: 100%;
-  height: 400px;
-  background-image: url("../../assets/alisa.webp");
-  background-size: cover;
-  background-position: center;
+  height: auto;
+  object-fit: cover;
 }
 
 .buttons {

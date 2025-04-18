@@ -31,7 +31,16 @@ const Hero = () => {
             {t("cv")}
           </a>
         </div>
-        <div className={css.image}></div>
+        <div className={css.imageWrapper}>
+          <img
+            className={css.image}
+            src={image}
+            alt="Alisa Gulyayeva"
+            width={340}
+            height={408}
+            loading="lazy"
+          />
+        </div>
       </div>
     </section>
   );
