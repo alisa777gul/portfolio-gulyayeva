@@ -67,6 +67,10 @@
   border-radius: 10px;
   box-shadow: 9px 4px 0 #ffdccc;
   width: 100%;
+  height: 400px;
+  background-image: url("../../assets/alisa.webp");
+  background-size: cover;
+  background-position: center;
 }
 
 .buttons {
