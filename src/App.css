@@ -18,6 +18,7 @@
   --swiper-pagination-bullet-vertical-gap: 6px;
   --swiper-button-next-display: none;
   padding-top: 80px;
+  min-height: 100vh;
 }
 .visually-hidden {
   clip: rect(0 0 0 0);
