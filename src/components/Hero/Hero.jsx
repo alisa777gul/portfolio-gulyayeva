@@ -35,7 +35,8 @@ const Hero = () => {
           className={css.image}
           src={image}
           alt="Alisa Gulyayeva"
-          loading="lazy"
+          width={340}
+          height={408}
         />
       </div>
     </section>

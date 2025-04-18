@@ -1,7 +1,7 @@
 .hero {
   display: grid;
   gap: 40px;
-  grid-template-rows: auto auto 1fr;
+  grid-template-columns: 335px;
   justify-items: center;
   padding: 0 20px;
   padding-top: 32px;
@@ -26,6 +26,7 @@
   line-height: 36px;
   color: #ffffff;
   text-align: left;
+  width: 340px;
 }
 
 .secondLine {
@@ -36,7 +37,6 @@
   white-space: nowrap;
   animation: typing 2s steps(20, end) forwards,
     cursorBlink 0.75s step-end infinite;
-  width: 0;
 }
 
 @keyframes typing {
@@ -44,7 +44,7 @@
     width: 0;
   }
   to {
-    width: 100%;
+    width: 92%;
   }
 }
 
@@ -59,6 +59,7 @@
   font-size: 20px;
   line-height: 112%;
   color: #686a75;
+  width: 216px;
 }
 
 .image {
@@ -108,16 +109,12 @@
 
 @media screen and (min-width: 1024px) {
   .hero {
-    grid-template-rows: 0;
-    display: flex;
-    flex-wrap: wrap;
+    grid-template-rows: 420px;
+    grid-template-columns: 680px 335px;
     padding: 0 60px;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     padding-top: 40px;
-    column-gap: 104px;
-    row-gap: 44px;
+    column-gap: 60px;
   }
   .section {
     padding: 0;
@@ -125,12 +122,15 @@
 
   .text {
     gap: 20px;
+    grid-column: 1;
+    grid-row: 1;
   }
 
   .title {
     font-size: 56px;
     line-height: 60px;
     text-align: left;
+    width: 680px;
   }
   .secondLine {
     font-size: 56px;
@@ -138,6 +138,8 @@
 
   .position {
     font-size: 28px;
+    width: 400px;
+    text-align: left;
   }
 
   .image {
@@ -146,9 +148,13 @@
   }
 
   .buttons {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
     gap: 64px;
-    order: 2;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+    justify-self: start;
   }
 
   .button {

@@ -31,6 +31,10 @@
   margin-bottom: 16px;
 }
 
+.txt {
+  width: 288px;
+}
+
 .position {
   margin-bottom: 12px;
   color: #686a75;
@@ -73,6 +77,9 @@
 @media screen and (min-width: 1024px) {
   .text {
     gap: 20px;
+  }
+  .txt {
+    width: 500px;
   }
 
   .about {

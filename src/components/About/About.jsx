@@ -30,9 +30,11 @@ export const About = () => {
         <div className={css.all}>
           <h2 className={css.title}>{t("about_title")}</h2>
           <h3 className={css.position}>Front-End {t("developer")}</h3>
-          <p className={css.text}>{t("about_text1")}</p>{" "}
-          <p className={css.text}>{t("about_text2")}</p>{" "}
-          <p className={css.text}>{t("about_text3")}</p>
+          <div className={css.txt}>
+            <p className={css.text}>{t("about_text1")}</p>
+            <p className={css.text}>{t("about_text2")}</p>
+            <p className={css.text}>{t("about_text3")}</p>
+          </div>
           <div className={css.buttons}>
             <a
               href="#projects"
