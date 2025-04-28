@@ -24,7 +24,7 @@ const Hero = () => {
             {t("hire")}
           </a>
           <a
-            href="/Alisa_Gulyayeva_FrontEndDeveloper.pdf"
+            href="/Alisa_Gulyayeva_FullstackDeveloper.pdf"
             download="Alisa_Gulyayeva_CV"
             className={css.button}
           >

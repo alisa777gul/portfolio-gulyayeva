@@ -44,7 +44,7 @@ export const About = () => {
               {t("projects_title")}
             </a>
             <a
-              href="/Alisa_Gulyayeva_FrontEndDeveloper.pdf"
+              href="/Alisa_Gulyayeva_FullstackDeveloper.pdf"
               download="Alisa_Gulyayeva_CV"
               className={css.button}
             >
